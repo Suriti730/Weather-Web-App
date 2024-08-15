@@ -37,7 +37,6 @@ async function checkWeather(city) {
 
         document.querySelector(".error").style.display = "none";
         document.querySelector(".weather").style.display = "block";
-
     }
 }
 
