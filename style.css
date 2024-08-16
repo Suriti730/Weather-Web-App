@@ -127,6 +127,63 @@ body {
     height: 325px;
 }
 
+@media (max-width: 1024px) {
+    .card {
+        width: 85%;
+        padding: 30px 25px;
+    }
+
+    .weather h1 {
+        font-size: 70px;
+    }
+
+    .weather h2 {
+        font-size: 40px;
+    }
+
+    .details {
+        padding: 0 15px;
+    }
+
+    .humidity,
+    .wind {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 80%;
+        padding: 25px 20px;
+    }
+
+    .search input {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .weather h1 {
+        font-size: 60px;
+    }
+
+    .weather h2 {
+        font-size: 35px;
+    }
+
+    .weather-icon {
+        width: 140px;
+    }
+
+    .details {
+        margin-top: 40px;
+    }
+
+    .humidity,
+    .wind {
+        font-size: 22px;
+    }
+}
+
 @media (max-width: 480px) {
     .card {
         width: 95%;
